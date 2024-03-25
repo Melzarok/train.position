@@ -57,3 +57,142 @@ p {
   color: black;
   margin-bottom: 20px;
 }
+
+.task1 {
+  position: relative;
+  left: 200px;
+  top: 150px;
+}
+
+.task2 {
+  position: absolute;
+  left: calc(50% - (80px / 2));
+  top: calc((432px / 2) - (80px / 2));
+}
+
+.task3 .item {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.task4 .item {
+  position: absolute;
+  left: calc(50% - (80px / 2));
+}
+
+.task5 .item1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.task5 .item2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 1;
+}
+.task5 .item3 {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.task6 .item {
+  float: left;
+}
+
+.task7 .item {
+  float: right;
+}
+
+.task8 .item1 {
+  float: left;
+}
+
+.task8 .item2 {
+  float: right;
+}
+
+.task8 p {
+  clear: both;
+}
+
+.task9 .item1 {
+  float: left;
+}
+
+.task9 .item2 {
+  float: right;
+}
+
+.task9 p {
+  clear: right;
+}
+
+.task10 .item1 {
+  float: left;
+}
+
+.task10 .item2 {
+  float: right;
+  height: 200px;
+}
+
+.task10 p {
+  clear: left;
+}
+
+.task11 .img-item {
+  object-fit: contain;
+}
+
+.task12 .img-item {
+  object-fit: cover;
+}
+
+.task13 .img-item {
+  object-fit: fill;
+}
+
+.task14 .img-item {
+  object-fit: scale-down;
+}
+
+.task15 .img-item {
+  object-position: center right;
+}
+
+.task16 .img-item {
+  object-position: top left;
+}
+
+.task17 .img-item {
+  object-position: bottom center;
+}
+
+.task18 .img-item {
+  object-position: 40px 25px;
+}
+
+.task19 .img-item {
+  object-position: center;
+}
+
+.task20 {
+  user-select: none;
+}
+
+.task21 {
+  user-select: all;
+}
+
+.task22 {
+  caret-color: blue;
+}
+
+.task23 {
+  scroll-behavior: smooth;
+}
